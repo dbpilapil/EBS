@@ -19,6 +19,10 @@
     },
     "ApplicationName": {
       "Type": "String",
+      "Default": "ApplicationName"
+    },
+    "SampleApplication": {
+      "Type": "String",
       "Default": "SampleApplication"
     }
   },
