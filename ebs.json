@@ -19,10 +19,8 @@
     },
     "SampleApplication": {
       "Type": "AWS::ElasticBeanstalk::Application",
-      "Properties": {
-        "Description": "SampleApplication",
-        "ApplicationName": "SampleApplication"
-      }
+      "Description": "SampleApplication",
+      "ApplicationName": "SampleApplication"
     }
   }
 }
