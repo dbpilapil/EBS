@@ -16,13 +16,16 @@
     "PrivateSubnets": {
       "Type": "String",
       "Default":"subnet-123,subnet-1234"
-    },
+    }
+  },
     "SampleApplication": {
       "Type": "AWS::ElasticBeanstalk::Application",
-    },
-    "ApplicationName": {
-      "Type": "String",
-      "Default": "SampleApplication"
+      "Properties": {
+        "Description": "SampleApplication",
+        "ApplicationName": {
+          "Type": "String",
+          "Default": "SampleApplication"
+      }
     }
   }
 }
