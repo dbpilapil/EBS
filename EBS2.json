@@ -18,7 +18,7 @@
       "Default":"subnet-123,subnet-1234"
     },
     "SampleApplication": {
-      "Type": "AWS::ElasticBeanstalk::Application",
+      "Type": "AWS::ElasticBeanstalk::Application"
     },
     "ApplicationName": {
       "Type": "String",
