@@ -32,34 +32,6 @@
           "Ref": "ApplicationName"
         }
       }
-    },
-     "SampleEnvironment": {
-      "Type": "AWS::ElasticBeanstalk::Environment",
-    
-      "Properties": {
-        "ApplicationName": {"Ref":"SampleApplication"},
-        "EnvironmentName": {"Ref": "EnvironmentName"},
-        "Description": "SampleEnvironment",
-        "VersionLabel": {
-          "Ref": "AppVersion"
-        },
-        "Tier": {
-          "Name": "WebServer",
-          "Type": "Standard"
-        },
-        "TemplateName": {
-          "Ref": "ApplicationName"
-        },
-        "OptionSettings": [
-          {
-            "Namespace": "aws:elasticbeanstalk:application:environment",
-            "OptionName": "AWS_REGION",
-            "Value": "us-east-1"
-         }
-          
-        ]
-      }
     }
- 
   }
 }
